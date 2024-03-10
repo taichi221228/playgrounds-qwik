@@ -8,6 +8,6 @@ export default component$(() => {
   );
 });
 
-export const Greeter = component$(() => {
+export const Greeter = () => {
   return <div>Hello World!</div>;
-});
+};
